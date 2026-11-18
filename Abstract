@@ -1,0 +1,21 @@
+Abstract
+High-dimensional two-sample testing is challenging when the number of measurements
+exceeds the sample size, measurements are dependent, and distributions have different
+tail behavior. Mean- and rank-based procedures provide complementary evidence, but
+their relative performance varies with distribution and signal structure. We propose three
+permutation-calibrated tests that integrate variance-reweighted mean and rank order-statistic
+statistics after mapping them to a common normal-score scale. The covariance-aware statistic
+Hmah accounts for dependence between paired scores; Htail weights the two channels using
+pooled kurtosis; and Hmax retains the larger calibrated score. Simulations under normal,
+Student’s t, and skewed distributions show that rejection rates rise with signal strength.
+The rank-based specialist is stronger under heavy tails and skewness, while Htail and Hmax
+approach the stronger specialist. Hmah is more conservative in several settings, so no hybrid
+dominates uniformly. In the GunPoint application, repeated subsampling of 15 observations
+per class yields empirical rejection percentages of 74.2%, 79.0%, 58.2%, 80.0%, and 81.6% for
+T∗
+1, T∗
+2, Hmah, Htail, and Hmax, respectively. These frequencies describe resampling behavior
+in one dataset rather than population power. The framework offers an adaptive way to
+combine mean and rank evidence without selecting one channel in advance.
+Keywords: high-dimensional; two-sample test; permutation; variance reweighted mean; rank
+order statistics; adaptive.
